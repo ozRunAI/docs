@@ -246,7 +246,7 @@ Distributed training allows the Researcher to train models over multiple nodes. 
 * XGBoost
 * MPI
 
-All are part of the *Kubeflow Training Operator*. Run:ai supports Training Operator version 1.7 and up. To install run:
+All are part of the *Kubeflow Training Operator*. Run:ai supports Training Operator version 1.7 only. To install run:
 
 ```
 kubectl apply -k "github.com/kubeflow/training-operator/manifests/overlays/standalone?ref=v1.7.0"
